@@ -1,0 +1,81 @@
+body, html {
+background: #fff; 
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+}
+h1{
+	padding-top: 30px;
+	text-align:center;
+	text-shadow:0 1px 1px black;
+	background-color:#f8f8f8;
+	font-size:50px;
+	border-top: 1px solid #ddd;
+	color: green;
+}
+h2{
+	text-align:center;
+	text-shadow:0 1px 1px white;
+	margin-bottom:30px;
+	background-color:#f8f8f8;
+	font-size:20px;
+	border-bottom: 1px solid #ddd;
+	color: green;
+}
+
+/* TWITTER */
+#bar{
+	background-color:#5fbbde;
+	width:0px;
+	height:16px;
+}
+#barbox{
+	float:left;
+	height:16px;
+	background-color:#FFFFFF;
+	width:100px;
+	border:solid 2px #000;
+	margin-right:3px;
+	-webkit-border-radius:5px;-moz-border-radius:5px;
+}
+#count{
+	float:left;
+	margin-right:8px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#666666
+}
+#contentbox{
+	width:450px; height:50px;
+	border:solid 2px #006699;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:14px;
+}
+#character-count {
+	margin-right:540px;
+}
+
+/* INVESTOR SEARCH */
+#container {width: 850px;margin: 0 auto 0 auto;}
+#loader {margin: 20px 0 40px 350px;}
+
+.image-container {height: 140px; width: 140px; position: relative; float: left; margin: 0 20px 20px 0; background-color: #666; border: 5px solid #ddd; overflow: hidden;}
+.image-info {display: none;}
+.image-info-active {height: 140px; width: 140px; background: rgba(255,255,255,.85);}
+
+.twitter-container {height: 20px; width: 80px; position: relative; float: left; margin: 0 20px 20px 0; background-color: #666; border: 2px solid #ddd; overflow: hidden;}
+.twitter-info-active {height: 20px; width: 80px; background: rgba(255,255,255,.85);}
+
+a {cursor: pointer; text-decoration: none; color: #0063dc;}
+a:hover {color: #fff; background: #0063dc;}
+a.title {color: #009E28;}
+a.title:hover {color: #fff; background: #009E28;}
+.bottom {padding: 5px;}
+.bottom p {margin: 0 0 5px 0; }
+p.top {background: #fff; width: 240px; padding: 0 0 5px 0; margin: 0;}
+a.title {font-size: 14px; font-weight: bold; display: block; line-height: 20px;}
+span.author {font-size: 10px;}
+.infoTitle {font-weight: bold; font-size: 12px;}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clearfix {display:inline-block;}
+.clearfix {display:block;}
