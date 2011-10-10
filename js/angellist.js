@@ -39,6 +39,9 @@ $('button').click(function(){
                 	var twitterHandle = twitterString.substr(19);
                 }; 
 				
+				//determine if user has mutual friendships (both follow same person on twitter (next: connected on linkedin)
+				var username = <?php echo $username ?>;
+				
 				//set up image blocks and data of only investors
 				var roles = rolesArr.join(', ');
 				var imgCont = '<div class="image-container" style="background: url('+json.image+');"><div class="image-info"><p class="top"><a class="title" href="'+json.angellist_url+'">'+json.name+'</a> <span class="author">Connect: <a href="'+json.twitter_url+'">Twitter </a><a href="'+json.linkedin_url+'">Linkedin </a></span></p></p>';

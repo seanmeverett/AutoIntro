@@ -10,12 +10,14 @@
 	<h1>Startups, Get Introduced to Investors</h1>
 	<h2>Discover Mutual Friendships With Relevant Investors Through Twitter & Linkedin</h2>
 	
-	<p>Find Investors on AngelList (Angels & VCs):</p>
+	<p>Find Investors on AngelList (Angels & VCs Only):</p>
 	<button>Search AngelList</button><br />
 	<div id="container">	
 		<div id="image-container" class="clearfix">
 		</div>
 		<div id="twitter-container" class="clearfix">
+		</div>
+		<div id="twitter-list-container" class="clearfix">
 		</div>
 	</div>
 	<br /><br />
